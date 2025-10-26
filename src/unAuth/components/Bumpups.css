@@ -1,0 +1,23 @@
+.bumpups {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.bumpups-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.bumpups h2 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .bumpups h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,147 @@
+.timestamp-extractor {
+  padding: 2rem 0;
+  background-color: #ecf0f1;
+}
+
+.timestamp-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.timestamp-container h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.input-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.input-section label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.timestamp-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.timestamp-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-extract {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-extract:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.btn-clear {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.btn-clear:hover {
+  background-color: #7f8c8d;
+  transform: translateY(-2px);
+}
+
+.extracted-info {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.extracted-info h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border-left: 4px solid #3498db;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.info-value {
+  color: #34495e;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .timestamp-container {
+    padding: 0 1rem;
+  }
+  
+  .input-section,
+  .extracted-info {
+    padding: 1.5rem;
+  }
+  
+  .button-group {
+    flex-direction: column;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
