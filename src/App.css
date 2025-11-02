@@ -1,3 +1,4 @@
+/* Main App container */
 .App {
   width: 100%;
   max-width: 1200px;
@@ -5,30 +6,14 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  /* Remove background-color to allow child components to control their own backgrounds */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Ensure smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Base styles for better cross-browser compatibility */
-* {
-  box-sizing: border-box;
-}
-
 /* Responsive design */
+/* Remove shadow when App is full width (viewport <= 1200px) */
 @media (max-width: 1200px) {
   .App {
-    max-width: 100%;
     box-shadow: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .App {
-    width: 100%;
   }
 }
