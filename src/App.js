@@ -1,3 +1,4 @@
+import './App.css';
 import LandingPage from './unAuth/LandingPage';
 
 function App() {
@@ -9,3 +10,4 @@ function App() {
 }
 
 export default App;
+ 
