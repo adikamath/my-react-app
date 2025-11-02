@@ -7,7 +7,7 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={logo} alt="Bumpups Test Logo" />
+          <img src={logo} alt="Tubestamp Logo" />
         </div>
         <div className="navbar-menu">
           <ul className="navbar-list">

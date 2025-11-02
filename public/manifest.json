@@ -1,6 +1,6 @@
 {
-  "short_name": "Bumpups Test",
-  "name": "Bumpups Test",
+  "short_name": "Tubestamp",
+  "name": "Tubestamp",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#6C5CE7",
+  "theme_color": "#6366F1",
   "background_color": "#ffffff"
 }
