@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="740" height="220" viewBox="0 0 740 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bumpups Test — Logo</title>
+  <desc id="desc">Logo with white 'Bumpups' text and smaller 'Test' capsule that is fully visible within the frame.</desc>
+
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00CEC9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Icon container -->
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" rx="28" ry="28" width="160" height="160" fill="url(#grad)" filter="url(#shadow)"/>
+    <g transform="translate(40,40)">
+      <rect x="0" y="52" width="22" height="28" rx="6" fill="white" opacity="0.9"/>
+      <rect x="34" y="36" width="22" height="44" rx="6" fill="white" opacity="0.95"/>
+      <rect x="68" y="18" width="22" height="62" rx="6" fill="white" opacity="1"/>
+      <path d="M62 26 L102 0 L96 24 L120 30 L78 48 Z" fill="white"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(210, 50)">
+    <!-- 'Bumpups' main text -->
+    <text x="0" y="80" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="80" font-weight="800" fill="white" letter-spacing="1">
+      Bumpups
+    </text>
+
+    <!-- Adjusted 'Test' capsule and text -->
+    <rect x="410" y="40" rx="10" ry="10" width="110" height="44" fill="url(#grad)"/>
+    <text x="432" y="72" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="24" font-weight="700" fill="white" letter-spacing="0.3">
+      Test
+    </text>
+  </g>
+</svg>

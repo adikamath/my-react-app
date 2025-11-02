@@ -1,12 +1,13 @@
 import React from 'react';
 import './NavBar.css';
+import logo from '../../assets/bumpups-test-logo.svg';
 
 const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h2>MyApp</h2>
+          <img src={logo} alt="Bumpups Test Logo" />
         </div>
         <div className="navbar-menu">
           <ul className="navbar-list">
